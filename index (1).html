@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomHair - Extensiones de Cabello Premium</title>
+    <meta name="description" content="Extensiones de cabello 100% Remy humano. Servicios profesionales de extensiones con resultados impecables.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <a href="#home" class="logo">
+                    <h1>BLOOM<span class="logo-accent">HAIR</span></h1>
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="nav-menu" id="navMenu">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link">
+                            Colecciones
+                            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#genius-wefts">Genius Wefts</a>
+                            <a href="#volume-wefts">Volume Wefts</a>
+                            <a href="#keratin-tip">Keratin Tips</a>
+                            <a href="#nano-tip">Nano Tips</a>
+                        </div>
+                    </div>
+                    <a href="#colors" class="nav-link">Colores</a>
+                    <a href="#professional" class="nav-link">Profesional</a>
+                    <a href="#about" class="nav-link">Nosotros</a>
+                </div>
+
+                <!-- Right Icons -->
+                <div class="nav-icons">
+                    <button class="icon-btn search-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                    <button class="icon-btn user-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </button>
+                    <button class="icon-btn cart-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="nav-link mobile-dropdown-trigger">
+            Colecciones
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+        <div class="mobile-dropdown-content">
+            <a href="#genius-wefts">Genius Wefts</a>
+            <a href="#volume-wefts">Volume Wefts</a>
+            <a href="#keratin-tip">Keratin Tips</a>
+            <a href="#nano-tip">Nano Tips</a>
+        </div>
+        <a href="#colors" class="nav-link">Colores</a>
+        <a href="#professional" class="nav-link">Profesional</a>
+        <a href="#about" class="nav-link">Nosotros</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-video-wrapper">
+            <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata" 
+                   poster="https://customer-assets.emergentagent.com/job_bloom-hair-studio-1/artifacts/jgnozeq7_WhatsApp%20Image%202026-03-26%20at%2014.41.14%20%281%29.jpeg">
+                <source src="https://customer-assets.emergentagent.com/job_bloom-hair-studio-1/artifacts/8cefum60_video-pelorubio.MOV" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle animate-slide-in">Artesanía de Lujo</p>
+                <h1 class="hero-title animate-slide-in">
+                    EXTENSIONES DE<br>
+                    <span class="gradient-text">CABELLO</span><br>
+                    PREMIUM
+                </h1>
+                <p class="hero-description animate-slide-in">
+                    100% cabello humano Remy, cuidadosamente seleccionado para resultados impecables y duraderos que transforman tu belleza
+                </p>
+                <div class="hero-buttons animate-slide-in">
+                    <a href="#products" class="btn btn-primary">Explorar Extensiones</a>
+                    <a href="#transformations" class="btn btn-secondary">Ver Transformaciones</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Colors Section -->
+    <section class="colors-section" id="colors">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Bloom Colors</p>
+                <h2 class="section-title">45+ Tonos Exclusivos. Posibilidades Infinitas.</h2>
+            </div>
+            <div class="colors-grid" id="colorsGrid"></div>
+            <div class="section-cta">
+                <a href="#all-colors" class="btn btn-outline">Ver Todos los Colores</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extension Types Section -->
+    <section class="extension-types-section">
+        <div class="container">
+            <div class="extension-types-grid" id="extensionTypesGrid"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://customer-assets.emergentagent.com/job_bloom-hair-studio-1/artifacts/ozo03zdr_WhatsApp%20Image%202026-03-26%20at%2014.41.33%20%285%29.jpeg" alt="BloomHair Quality">
+                </div>
+                <div class="about-content">
+                    <p class="section-subtitle">La Diferencia BloomHair</p>
+                    <h2 class="section-title">Calidad Premium que Confían los Expertos</h2>
+                    <p class="about-description">
+                        Cuando compras en BloomHair, puedes estar segura de que estás invirtiendo en extensiones de cabello humano de lujo en las que confían los mejores especialistas en extensiones.
+                    </p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <p>Todas nuestras extensiones están hechas del cabello humano Remy Cuticle de la más alta calidad 100%</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <p>Seguimos de cerca todo nuestro cabello durante el proceso de fabricación para garantizar que cada paquete cumpla con nuestros altos estándares de calidad</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <p>Ofrecemos entrega al día siguiente y recogida en tienda para que puedas obtener tus envíos rápidamente</p>
+                        </div>
+                    </div>
+                    <div class="about-cta-box">
+                        <p><strong>¿Eres estilista profesional?</strong> Solicita una cuenta profesional <a href="#professional">aquí</a> para obtener más beneficios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Section -->
+    <section class="professional-section" id="professional">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Creado para el Artista</h2>
+                <p class="section-subtitle">Extensiones de Grado Profesional para Instalaciones Impecables</p>
+            </div>
+            <div class="professional-grid" id="professionalGrid"></div>
+            <div class="section-cta">
+                <a href="#apply" class="btn btn-primary">Solicitar Acceso Profesional</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Productos Destacados</p>
+                <h2 class="section-title">Productos Recomendados</h2>
+            </div>
+            <div class="products-grid" id="productsGrid"></div>
+            <div class="section-cta">
+                <a href="#all-products" class="btn btn-outline">Ver Todos los Productos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Herramientas Profesionales</p>
+                <h2 class="section-title">Herramientas de Instalación</h2>
+                <p class="section-description">Herramientas profesionales para una aplicación perfecta de extensiones</p>
+            </div>
+            <div class="tools-grid" id="toolsGrid"></div>
+            <div class="section-cta">
+                <a href="#all-tools" class="btn btn-outline">Ver Todas las Herramientas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Nuestro Trabajo</p>
+                <h2 class="section-title">Galería de Transformaciones</h2>
+                <p class="section-description">Etiqueta @bloomhair para ser destacada</p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid"></div>
+            <div class="section-cta">
+                <a href="https://instagram.com/bloomhair" target="_blank" class="instagram-link">
+                    Seguir @bloomhair en Instagram
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformations Section -->
+    <section class="transformations-section" id="transformations">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">El Efecto BloomHair</p>
+                <h2 class="section-title">Transformaciones Reales</h2>
+                <p class="section-description">Desde Genius Wefts, Keratin Tips, I-Tips, hasta nuestras Volume Genius Wefts patentadas, cada extensión está fabricada con cabello humano Remy 100%.</p>
+            </div>
+            <div class="transformations-container" id="transformationsContainer"></div>
+            <div class="section-cta">
+                <div class="cta-box">
+                    <h3>Resultados Profesionales, Calidad Incomparable</h3>
+                    <p>Únete a miles de estilistas que confían en BloomHair</p>
+                    <a href="#collections" class="btn btn-primary">Explorar Nuestras Colecciones</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <svg class="newsletter-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <h2>Suscríbete a Nuestro Newsletter</h2>
+                <p>Mantente actualizada con nuestros últimos productos y ofertas</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit" class="btn btn-primary">Suscribirse</button>
+                </form>
+                <p class="newsletter-disclaimer">Al suscribirte, aceptas nuestra Política de Privacidad y consientes recibir actualizaciones de nuestra empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">BLOOM<span>HAIR</span></h3>
+                    <p>Extensiones de cabello premium 100% Remy para profesionales y entusiastas del cabello.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Comprar</h4>
+                    <a href="#genius-wefts">Genius Wefts</a>
+                    <a href="#volume-wefts">Volume Wefts</a>
+                    <a href="#keratin-tip">Keratin Tips</a>
+                    <a href="#nano-tip">Nano Tips</a>
+                    <a href="#handtied">Hand-Tied Wefts</a>
+                    <a href="#colors">Ver Colores</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Información</h4>
+                    <a href="#about">Sobre Nosotros</a>
+                    <a href="#professional">Programa Profesional</a>
+                    <a href="#how-to">Cómo Aplicar</a>
+                    <a href="#care">Cuidado del Cabello</a>
+                    <a href="#faq">Preguntas Frecuentes</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contacto</h4>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>123 Beauty Street, Miami, FL 33101</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>hola@bloomhair.com</span>
+                    </div>
+                    <div class="hours">
+                        <p><strong>Horario de Atención:</strong></p>
+                        <p>Lunes - Viernes: 9am - 6pm</p>
+                        <p>Sábado: 10am - 4pm</p>
+                        <p>Domingo: Cerrado</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 BloomHair. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Política de Privacidad</a>
+                    <a href="#terms">Términos de Servicio</a>
+                    <a href="#shipping">Envíos</a>
+                    <a href="#returns">Devoluciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <svg class="toast-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <div>
+                <div class="toast-title">¡Suscripción exitosa!</div>
+                <div class="toast-description">Gracias por suscribirte a nuestro newsletter.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
